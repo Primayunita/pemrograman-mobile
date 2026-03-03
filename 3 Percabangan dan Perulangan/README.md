@@ -229,6 +229,6 @@ void main() {
 
 **Output**
 
-![Kode Output](OutputTugas.png)
-![Kode Output](OutputTugas(1).png)
+![Kode Output](img/OutputTugas.png)
+![Kode Output](img/OutputTugas(1).png)
 
