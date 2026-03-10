@@ -451,6 +451,7 @@ Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
 **1.Required Parameter**
 
   Parameter yang harus diisi ketika function dipanggil.
+
   **Contoh :**
   ```dart
   void sapa(String nama) {
@@ -462,7 +463,6 @@ Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
   Parameter yang boleh diisi atau tidak dan ditulis menggunakan tanda [].
 
   **Contoh :**
-
   ```dart
   void sapa(String nama, [String? pesan]) {
   print("$nama $pesan");
@@ -473,7 +473,6 @@ Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
   Parameter yang dipanggil menggunakan nama parameternya dan ditulis dengan {}.
 
   **Contoh :**
-
   ``` dart
   void sapa({String? nama, int? umur}) {
   print("$nama berumur $umur");
@@ -484,7 +483,6 @@ Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
   Parameter yang memiliki nilai awal (default) jika tidak diisi.
 
   **Contoh :**
-
   ```dart
   void sapa({String nama = "User"}) {
   print("Halo $nama");
@@ -534,7 +532,6 @@ Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
 Lexical Scope adalah aturan bahwa variabel hanya bisa digunakan di dalam tempat variabel tersebut dibuat.
 
 **Contoh :**
-
 ```dart
 void main() {
   var nama = "Primayunita";
@@ -550,7 +547,6 @@ void main() {
 Lexical Closure adalah kondisi ketika sebuah function masih bisa menggunakan variabel dari luar function tersebut.
 
 **Contoh :**
-
 ```dart
 Function hitung() {
   int nilai = 0;
@@ -570,7 +566,6 @@ Jelaskan dengan contoh cara membuat return multiple value di Functions!
 Di Dart, sebuah function bisa mengembalikan lebih dari satu nilai menggunakan Record.
 
 **Contoh :**
-
 ```dart
 (String, int) dataMahasiswa() {
   return ("Primayunita", 19);
