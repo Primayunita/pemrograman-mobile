@@ -17,31 +17,31 @@
 
 Buatlah sebuah project flutter baru dengan nama flutter_plugin_pubdev. Lalu jadikan repository di GitHub Anda dengan nama flutter_plugin_pubdev.
 
-![Langkah 1](assets/praktikum_langkah1.png)
+![Langkah 1](flutter_plugin_pubdev/assets/praktikum_langkah1.png)
 
 ### Langkah 2: Menambahkan Plugin
 
 Tambahkan plugin auto_size_text menggunakan perintah berikut di terminal
 
-![Langkah 2](assets/praktikum_langkah2(1).png)
+![Langkah 2](flutter_plugin_pubdev/assets/praktikum_langkah2(1).png)
 
 Jika berhasil, maka akan tampil nama plugin beserta versinya di file pubspec.yaml pada bagian dependencies.
 
-![Langkah 2](assets/praktikum_langkah2(2).png)
+![Langkah 2](flutter_plugin_pubdev/assets/praktikum_langkah2(2).png)
 
 ### Langkah 3: Buat file red_text_widget.dart
 
 Buat file baru bernama red_text_widget.dart di dalam folder lib lalu isi kode seperti berikut.
 
-![Langkah 3](assets/praktikum_langkah3(1).png)
+![Langkah 3](flutter_plugin_pubdev/assets/praktikum_langkah3(1).png)
 
-![Langkah 3](assets/praktikum_langkah3(2).png)
+![Langkah 3](flutter_plugin_pubdev/assets/praktikum_langkah3(2).png)
 
 ### Langkah 4: Tambah Widget AutoSizeText
 
 Masih di file red_text_widget.dart, untuk menggunakan plugin auto_size_text, ubahlah kode return Container() menjadi seperti berikut.
 
-![Langkah 4](assets/praktikum_langkah4(1).png)
+![Langkah 4](flutter_plugin_pubdev/assets/praktikum_langkah4(1).png)
 
 Setelah Anda menambahkan kode di atas, Anda akan mendapatkan info error. Mengapa demikian? Jelaskan dalam laporan praktikum Anda!
 
@@ -51,7 +51,7 @@ Error terjadi karena AutoSizeText belum di-import, jadi widget tidak dikenali. S
 
 **Perbaikan kode:**
 
-![Langkah 4](assets/praktikum_langkah4(2).png)
+![Langkah 4](flutter_plugin_pubdev/assets/praktikum_langkah4(2).png)
 
 Kode masih mengalami error karena variabel text di dalam build belum didefinisikan pada kelas RedTextWidget. Perbaikannya dilakukan dengan menambahkan final String text; lalu memasukkannya ke konstruktor supaya widget bisa menerima input teks. Selain itu, penulisan Key diperbarui menjadi super.key agar sesuai dengan sintaks Dart terbaru.
 
@@ -59,19 +59,19 @@ Kode masih mengalami error karena variabel text di dalam build belum didefinisik
 
 Tambahkan variabel text dan parameter di constructor seperti berikut.
 
-![Langkah 5](assets/praktikum_langkah5.png)
+![Langkah 5](flutter_plugin_pubdev/assets/praktikum_langkah5.png)
 
 ### Langkah 6: Tambahkan widget di main.dart
 
 Buka file main.dart lalu tambahkan di dalam children: pada class _MyHomePageState
 
-![Langkah 6](assets/praktikum_langkah6(1).png)
+![Langkah 6](flutter_plugin_pubdev/assets/praktikum_langkah6(1).png)
 
-![Langkah 6](assets/praktikum_langkah6(2).png)
+![Langkah 6](flutter_plugin_pubdev/assets/praktikum_langkah6(2).png)
 
 Run aplikasi tersebut dengan tekan F5, maka hasilnya akan seperti berikut.
 
-![Langkah 6](assets/praktikum_langkah6(3).png)
+![Langkah 6](flutter_plugin_pubdev/assets/praktikum_langkah6(3).png)
 
 ## TUGAS PRAKTIKUM
 
