@@ -51,7 +51,7 @@ Error terjadi karena AutoSizeText belum di-import, jadi widget tidak dikenali. S
 
 **Perbaikan kode:**
 
-![Langkah 4](flutter_plugin_pubdev/assets/praktikum_langkah4(2).png)
+![Langkah 4](assets/praktikum_langkah4(2).png)
 
 Kode masih mengalami error karena variabel text di dalam build belum didefinisikan pada kelas RedTextWidget. Perbaikannya dilakukan dengan menambahkan final String text; lalu memasukkannya ke konstruktor supaya widget bisa menerima input teks. Selain itu, penulisan Key diperbarui menjadi super.key agar sesuai dengan sintaks Dart terbaru.
 
