@@ -92,6 +92,25 @@ Langkah 5 bertujuan agar RedTextWidget bisa menerima teks dari luar melalui vari
 
 ### 4. Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
 
+*Jawab:*
+
+Pada langkah 6, RedTextWidget dan Text sama-sama digunakan untuk menampilkan teks. Bedanya, RedTextWidget adalah widget custom yang sudah memiliki style tertentu (misalnya warna merah) sehingga lebih efisien untuk penggunaan berulang. Sedangkan Text adalah widget bawaan Flutter yang lebih fleksibel, tetapi perlu pengaturan tambahan untuk styling.
+
 ### 5. Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi https://pub.dev/documentation/auto_size_text/latest/ 
+
+*Jawab:*
+
+- text: Berisi kalimat atau teks yang ingin ditampilkan di layar.
+- style: Digunakan untuk mengatur tampilan teks, seperti warna, ukuran awal, dan jenis font.
+- maxLines: Menentukan jumlah maksimal baris yang bisa digunakan oleh teks.
+- minFontSize: Batas ukuran font paling kecil saat teks diperkecil agar tetap muat.
+- maxFontSize: Batas ukuran font paling besar yang bisa digunakan.
+- stepGranularity: Mengatur besar kecilnya perubahan ukuran font saat proses penyesuaian berlangsung.
+- presetFontSizes: Kumpulan ukuran font tertentu yang akan dicoba satu per satu untuk menemukan yang paling sesuai.
+- group: Menghubungkan beberapa teks agar memiliki ukuran font yang sama.
+- textAlign: Mengatur posisi teks, seperti rata kiri, tengah, atau kanan.
+- textDirection: Menentukan arah penulisan teks (dari kiri ke kanan atau sebaliknya).
+- overflow: Mengatur apa yang terjadi jika teks melebihi ruang, misalnya dipotong atau diberi tanda "...".
+- softWrap: Menentukan apakah teks boleh otomatis pindah ke baris berikutnya atau tidak.
 
 ### 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub kepada dosen!
