@@ -18,11 +18,11 @@
 
 Buatlah sebuah project flutter baru dengan nama master_plan di folder src week-10 repository GitHub Anda atau sesuai style laporan praktikum yang telah disepakati. 
 
-![Gambar 1](img/praktikum1_langkah1(1))
+![Gambar 1](img/praktikum1_langkah1(1).png)
 
 Lalu buatlah susunan folder dalam project seperti gambar berikut ini.
 
-![Gambar 2](img/praktikum1_langkah1(2))
+![Gambar 2](img/praktikum1_langkah1(2).png)
 
 ### Langkah 2: Membuat model task.dart
 
