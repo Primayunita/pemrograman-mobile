@@ -273,6 +273,8 @@ Sedangkan const Plan() digunakan sebagai nilai awal yang sederhana dan efisien s
 
 ![GIF](img/praktikum1_langkah9.gif)
 
+Saya telah membuat tampilan dasar (UI) aplikasi Android bernama “Master Plan Nita” yang terdiri dari judul di bagian atas dan tombol aksi (Floating Action Button) di pojok kanan bawah. Tampilan ini masih bersifat awal karena belum memiliki konten utama, namun sudah menunjukkan struktur dasar aplikasi yang siap dikembangkan lebih lanjut, seperti penambahan fitur untuk menampilkan dan mengelola data.
+
 ### 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
 
 *Jawab:*
@@ -571,6 +573,10 @@ Method tersebut digunakan untuk menghitung dan menampilkan progress task secara 
 ### 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
 ![GIF](img/praktikum2_langkah9.gif)
+
+Saya telah mengembangkan tampilan aplikasi “Master Plan Nita” dengan lebih lengkap. Selain judul dan tombol aksi (Floating Action Button), kamu juga sudah menambahkan indikator di bagian bawah berupa “0 out of 0 tasks” yang berfungsi untuk menampilkan jumlah tugas yang telah dibuat dan diselesaikan.
+
+Meskipun daftar tugas masih kosong, struktur aplikasi sudah semakin jelas karena telah mencakup elemen utama seperti header, tombol tambah data, dan informasi status tugas. Ini menunjukkan bahwa aplikasimu sudah siap untuk tahap berikutnya, yaitu menambahkan fitur pengelolaan dan penampilan data tugas.
 
 ### 5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke dosen yang telah disepakati !
 
