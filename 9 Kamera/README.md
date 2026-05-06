@@ -1,4 +1,4 @@
-# Laporan Praktikum #08 - Kamera
+# Laporan Praktikum #09 - Kamera
 
 ## Identitas Mahasiswa
 
