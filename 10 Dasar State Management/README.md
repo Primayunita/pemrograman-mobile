@@ -928,6 +928,8 @@ Di halaman kedua, pengguna bisa melihat dan mengatur task dari plan yang dipilih
 
 ![GIF](img/tugasprak3_no3.gif)
 
+Pada tahap ini, saya telah mengembangkan aplikasi “Master Plans Nita” dengan menambahkan fitur input dan tampilan kondisi data kosong (empty state). Terdapat kolom “Add a plan” yang memungkinkan pengguna untuk mulai menambahkan rencana, serta pesan “Anda belum memiliki rencana apapun” yang muncul ketika belum ada data.
+
 ### 4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke dosen yang telah disepakati !
 
 ---
